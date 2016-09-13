@@ -68,3 +68,7 @@ func Magenta(format string, v ...interface{}) {
 func Cyan(format string, v ...interface{}) {
 	printColor(format, FGCyan, v...)
 }
+
+func White(format string, v ...interface{}) {
+	printColor(format, FGDarkWhite, v...)
+}
